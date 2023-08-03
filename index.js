@@ -111,17 +111,17 @@ function cambioEstado(imagen) {
 
 document.addEventListener("click", (e) => {
   if (e.target === $btnComer) {
-    cambioEstado("./assets/bandicam.png");
+    cambioEstado("./assets/co.gif");
     banbicamp.comer();
     banbicamp.mostrarEstado();
   }
   if (e.target === $btnJugar) {
-    cambioEstado("./assets/jugando.png");
+    cambioEstado("./assets/source.gif");
     Kutchipachi.jugar();
     banbicamp.mostrarEstado();
   }
   if (e.target === $btnDormir) {
-    cambioEstado("./assets/durmiendo.png");
+    cambioEstado("./assets/tenor.gif");
     bambicamp.dormir();
     bambicamp.mostrarEstado();
   } 
